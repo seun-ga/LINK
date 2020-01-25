@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Climb
+  - Fly
+  - Animal
+  - Water
   layers:
   - Default
   - TransparentFX
@@ -13,6 +17,7 @@ TagManager:
   - UI
   - 
   - 
+  - clickableObject
   - 
   - 
   - 
@@ -24,11 +29,10 @@ TagManager:
   - 
   - 
   - 
+  - Animal
   - 
   - 
-  - 
-  - 
-  - 
+  - Enemy
   - 
   - 
   - 
