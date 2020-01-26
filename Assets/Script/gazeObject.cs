@@ -23,16 +23,20 @@ public class gazeObject : MonoBehaviour
        
         ray.origin=this.transform.position;
         ray.direction=this.transform.forward;
-        draw_Ray();
+        //draw_Ray();
         
         if (Physics.Raycast(ray.origin, ray.direction, out hit, MaxDistance,layerMask)){
            textClick.SetActive(true); 
-           Debug.Log(hit.collider.gameObject.name);
+           if(Input.GetMouseButtonDown(0)){
+              
+               gameObject.SendMessage("callMovePosition",hit.transform);
+
+
+           }
+           //Debug.Log(hit.collider.gameObject.name);
         }else{
             textClick.SetActive(false); 
         }
-
-      
 
     
     }
