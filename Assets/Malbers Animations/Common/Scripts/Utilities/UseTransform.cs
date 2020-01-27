@@ -11,7 +11,10 @@ namespace MalbersAnimations
             LateUpdate = 4,                                             // Update in LateUpdate. (for tracking objects that are moved in Update)
         }
 
+
+        [Tooltip("Transform to use the Position as Reference")]
         public Transform Reference;
+        [Tooltip("Use the Reference's Rotation too")]
         public bool rotation = true;
         public UpdateMode updateMode = UpdateMode.LateUpdate;
 
