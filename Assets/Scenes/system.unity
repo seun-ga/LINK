@@ -1609,6 +1609,11 @@ PrefabInstance:
       propertyPath: m_UpdateWhenOffscreen
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 137461840995590856, guid: a0bce93be6a8e2043bdf66a2413fc042,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 370287690078a3c4b8b17edfbdd831e2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0bce93be6a8e2043bdf66a2413fc042, type: 3}
 --- !u!1 &1049362902 stripped

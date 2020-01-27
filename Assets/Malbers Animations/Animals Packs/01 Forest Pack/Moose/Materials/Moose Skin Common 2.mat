@@ -8,7 +8,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Moose Skin Common 2
+<<<<<<< HEAD
+  m_Shader: {fileID: 4800000, guid: d84268709d11078d11005b9844295342, type: 3}
+=======
   m_Shader: {fileID: 4800000, guid: 632fc863e2898d74c93397f01c132e39, type: 3}
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -20,7 +24,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
+<<<<<<< HEAD
+        m_Texture: {fileID: 2800000, guid: 8b6b31f590df5d34db050592fd7d42f6, type: 3}
+=======
         m_Texture: {fileID: 2800000, guid: 184d616c2f1fdcd4faf92c091526d480, type: 3}
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -40,7 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emision:
+<<<<<<< HEAD
+        m_Texture: {fileID: 0}
+=======
         m_Texture: {fileID: 2800000, guid: 8b6b31f590df5d34db050592fd7d42f6, type: 3}
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -56,6 +68,17 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
+<<<<<<< HEAD
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metalic_Smoothness:
+        m_Texture: {fileID: 0}
+=======
         m_Texture: {fileID: 2800000, guid: 184d616c2f1fdcd4faf92c091526d480, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -69,6 +92,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Metalic_Smoothness:
         m_Texture: {fileID: 2800000, guid: 87a1416e0972b1043bdb01588bd43fdc, type: 3}
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -79,10 +103,13 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
+=======
     - _NormalMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -91,6 +118,9 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
+    - _ToonShade:
+=======
     - _ReflectionTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -104,6 +134,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Specular:
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -128,6 +159,16 @@ Material:
     - _M1BHue: 1
     - _M1BSaturation: 1
     - _M1BValue: 1
+<<<<<<< HEAD
+    - _M1GHue: 1
+    - _M1GSaturation: 1
+    - _M1GValue: 1
+    - _M1RHue: 1
+    - _M1RSaturation: 1
+    - _M1RValue: 1
+    - _Metallic: 0
+    - _Mode: 0
+=======
     - _M1GHue: 0.86
     - _M1GSaturation: 0.96
     - _M1GValue: 0.98
@@ -149,6 +190,7 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NormalAmount: 1
+>>>>>>> d4feb1743d614a3198a571f98c49283f34bad70c
     - _NormalIntensity: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
